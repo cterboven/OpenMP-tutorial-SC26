@@ -1,4 +1,4 @@
-BIN_DIR=../bin
+BIN_DIR=bin
 PROGRAM=$(BIN_DIR)/fibonacci
 
 CC=gcc

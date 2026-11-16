@@ -1,8 +1,8 @@
-BIN_DIR=../bin
+BIN_DIR=bin
 PROGRAM=$(BIN_DIR)/for
 
 CC=gcc
-CFLAGS=-std=c99 -g -O2 -fopenmp
+CFLAGS=-std=c99 -g -O2 -fopenmp -lm
 # DEBUG=-DDUMP_TREE=1
 
 all: $(PROGRAM)
